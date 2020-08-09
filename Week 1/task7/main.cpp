@@ -15,7 +15,6 @@ int main()
     for (int i = 0; i < text.size(); i++)
     {
         char sym = text[i];
-        
 
         if (sym == 'f')
         {

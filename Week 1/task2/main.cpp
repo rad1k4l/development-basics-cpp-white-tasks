@@ -4,24 +4,24 @@
 
 using namespace std;
 
-int main() {
+int main()
+{
     string x, y, z;
 
     cin >> x >> y >> z;
 
-
     string minimum = x;
 
-
-    if (minimum > y) {
+    if (minimum > y)
+    {
         minimum = y;
     }
 
-    if (minimum > z )
+    if (minimum > z)
     {
         minimum = z;
     }
-    
+
     cout << minimum;
 
     return 0;

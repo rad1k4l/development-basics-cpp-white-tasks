@@ -22,9 +22,11 @@ int main()
     else if (n > a)
     {
         cout << n - (n * (x / 100));
-    } else {
+    }
+    else
+    {
         cout << n;
     }
-    
+
     return 0;
 }
