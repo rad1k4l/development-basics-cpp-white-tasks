@@ -3,12 +3,6 @@
 
 using namespace std;
 
-double percent(int total, int percent)
-{
-
-    return total * (percent / 100);
-}
-
 int main()
 {
     int a, b;
