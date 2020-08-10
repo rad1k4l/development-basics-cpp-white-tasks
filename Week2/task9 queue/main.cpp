@@ -68,7 +68,7 @@ struct QueueOperation
     int arg;
 };
 
-void PrintWorryPeoples(const vector<Person> &people)
+void PrintWorryPeople(const vector<Person> &people)
 {
     int worries = 0;
 
