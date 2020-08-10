@@ -44,7 +44,6 @@ WORRY_COUNT
 2
 
 */
-
 #include <iostream>
 #include <vector>
 
@@ -69,11 +68,11 @@ struct QueueOperation
     int arg;
 };
 
-void PrintWorryPeoples(const vector<Person> &peoples)
+void PrintWorryPeoples(const vector<Person> &people)
 {
     int worries = 0;
 
-    for (Person person : peoples)
+    for (Person person : people)
     {
         if (person.isWorry == true)
         {
